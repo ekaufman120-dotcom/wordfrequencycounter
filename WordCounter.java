@@ -12,8 +12,6 @@ public class WordCounter {
         ArrayList<String> uniqueWords = new ArrayList<>();
 
         for (String word : words) {
-
-            // TODO:
             // If the word exists, increase its count.
             // Otherwise, add the word with a count of 1.
             if(counts.containsKey(word))
@@ -25,14 +23,14 @@ public class WordCounter {
             }
         }
 
-        // TODO: Print each word and its frequency.
+        // Print each word and its frequency.
 
         for(String word : uniqueWords)
         {
-            System.out.println("\""+word+"\" appears "+counts.get(word)+" times.");
+            System.out.println("\""+word+"\" appears "+counts.get(word)+" time(s).");
         }
 
-        // TODO: Print the number of unique words.
+        // Print the number of unique words.
 
         System.out.println("There are "+uniqueWords.size()+" unique words.");
     }

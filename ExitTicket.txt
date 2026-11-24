@@ -1,0 +1,7 @@
+1. In the Word Frequency Counter, what are the keys and what are the values? Why is a Map a reasonable choice for this application?
+
+The keys are the words, and the values are their frequencies. A map is a reasonable choice for this application because each word has exactly one frequency.
+
+2. We used a HashMap without knowing exactly how it stores its entries. If we wanted to retrieve a word's count quickly, how might we determine where that word's information is stored?
+
+Each key is associated with a location in memory that holds its information.
